@@ -3,7 +3,6 @@ import { Form, Container, Button } from "react-bootstrap";
 
 function Studentprofile() {
   const [country, setCountry] = useState([]);
-  const [countryid, setCountryid] = useState("");
 
   useEffect(() => {
     const getcountry = async () => {

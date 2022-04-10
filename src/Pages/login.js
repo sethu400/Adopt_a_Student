@@ -1,8 +1,6 @@
 import React from "react";
 import { Form, Button, Container, Figure } from "react-bootstrap";
 import adopt from "../Images/adopt.jpg";
-import signup from "./Signup";
-import nav from "./nav";
 
 function login() {
   return (

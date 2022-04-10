@@ -2,7 +2,6 @@ import React from "react";
 import { Row, Col, Card } from "react-bootstrap";
 import Student from "../Images/Student.jpg";
 import Teacher from "../Images/Teacher.jpg";
-import Studentprofile from "../Pages/Studentprofile";
 
 function signup() {
   return (
