@@ -2,6 +2,7 @@ import React from "react";
 import { Form, Button, Container, Figure } from "react-bootstrap";
 import adopt from "../Images/adopt.jpg";
 import signup from "./Signup";
+import nav from "./nav";
 
 function login() {
   return (
@@ -26,13 +27,13 @@ function login() {
         <Button variant="info" type="submit">
           Sign In
         </Button>{" "}
-        <Button variant="info" href="signup">
+        <Button variant="info" href="connect">
           Sign Up
         </Button>
       </Form>
       <br />
       <div className="d-grid gap-2">
-        <Button variant="primary" size="lg">
+        <Button variant="primary" size="lg" href="Studentprofile">
           Continue Anonymously
         </Button>
         <Button variant="secondary" size="lg">

@@ -7,7 +7,7 @@ import Studentprofile from "../Pages/Studentprofile";
 function signup() {
   return (
     <>
-      <Row>
+      <Row style={{ backgroundColor: "#ccdbfd", height: "100vh" }}>
         <Col>
           <Card
             border="primary"
@@ -21,9 +21,18 @@ function signup() {
               alt="logo"
               src={Teacher}
             />
-            <Card.Body>
-              <Card.Title>Teacher</Card.Title>
-            </Card.Body>
+            <Card.Link
+              href="#"
+              style={{
+                textDecoration: "none",
+                color: "black",
+                fontWeight: "600",
+                marginLeft: "100px",
+              }}
+            >
+              Teacher
+            </Card.Link>
+            <br />
           </Card>
         </Col>
         <Col>
@@ -42,9 +51,17 @@ function signup() {
               href="studentprofile"
             />
             <Card.Body>
-              <Card.Title href="studentprofile" style={{ cursor: "pointer" }}>
+              <Card.Link
+                href="studentprofile"
+                style={{
+                  textDecoration: "none",
+                  color: "black",
+                  fontWeight: "600",
+                  marginLeft: "90px",
+                }}
+              >
                 Student
-              </Card.Title>
+              </Card.Link>
             </Card.Body>
           </Card>
         </Col>

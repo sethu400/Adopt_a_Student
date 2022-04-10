@@ -63,9 +63,7 @@ const connect = () => {
             <Button variant="info" type="submit">
               Sign In
             </Button>{" "}
-            <Button variant="info" href="signup">
-              Continue with Google
-            </Button>
+            <Button variant="info">Continue with Google</Button>
           </Form>
         </Container>
       </Carousel.Item>
